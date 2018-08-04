@@ -5,7 +5,7 @@ class TaskList extends Component {
   render() {
     let listItems = this.props.tasks.map((item) => {
         return (
-          <li key={item.key}>{item.text}</li>
+          <li key={item.key}> {item.text} </li>
         );
       });
     return (
